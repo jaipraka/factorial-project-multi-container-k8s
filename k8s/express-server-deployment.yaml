@@ -14,7 +14,7 @@ spec: # Deployment configuration
     spec: # Specify all the different containers which are going to run inside this pod
       containers:
         - name: express-server # Name of the container
-          image: singhabhinav/factorial-project-express-server-k8s:dev # Image using which the container will be created
+          image: pakuthota/factorial-project-express-server-k8s # Image using which the container will be created
           ports: # Port to open
             - containerPort: 5000 # This port will be mapped to factorial-project-express-server-k8s image
           env: # These environment variables will be passed to container when it will be created inside the pod

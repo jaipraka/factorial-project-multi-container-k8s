@@ -14,6 +14,6 @@ spec: # Deployment configuration
         spec: # Specify all the different containers which are going to run inside this pod
             containers:
                 -  name: react-client # Name of the container
-                   image: singhabhinav/factorial-project-react-client-k8s:dev # Image using which the container will be created
+                   image: pakuthota/factorial-project-react-client-k8s # Image using which the container will be created
                    ports: # Port to open
                     - containerPort: 3000 # This port will be mapped to factorial-project-react-client-k8s image
